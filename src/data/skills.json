@@ -1,0 +1,19 @@
+[
+
+    {
+        "title": "HTML",
+        "imageSrc": "experience/html_icon.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "experience/css_icon.png"
+    },
+    {
+        "title": "JAVASCRIPT",
+        "imageSrc": "experience/javascript_icon.png"
+    },
+    {
+        "title": "REACT",
+        "imageSrc": "experience/react_icon.png"
+    }
+]
