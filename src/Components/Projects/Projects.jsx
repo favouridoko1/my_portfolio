@@ -1,9 +1,8 @@
-import React from 'react'
-
+import styles from './projects.module.css';
 export const Projects = () => {
   return (
-    <section className={}>
-
+    <section className={styles.container}>
+      <h2>PROJECTS</h2>
     </section>
   )
 }

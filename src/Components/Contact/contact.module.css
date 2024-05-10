@@ -1,0 +1,77 @@
+@import url(../../vars.css);
+.container {
+    position: relative;
+    margin-top: 137px;
+    background: #19376D;
+    color: var(--color-text);
+    overflow: hidden;
+    height: 250px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.left h2 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+}
+
+.left p {
+    font-size: 30px;
+    letter-spacing: 1.75;
+}
+
+.right {
+    margin-top: 2%;
+}
+
+.contactMe {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+    list-style: none;
+    
+}
+
+.contactMe li {
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+    font-size: 20px;
+    
+}
+
+.contactMe a {
+    text-decoration: none;
+    
+} 
+
+@media screen and (max-width:830px) {
+    .container {
+        margin-bottom: 50px;
+        height: 300px;
+    }
+    .content {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .left {
+        margin-top: 2%;
+    }
+
+    .right {
+        margin-top: 0px;
+    }
+    
+}
