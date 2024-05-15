@@ -33,11 +33,11 @@ export const Navbar = () => {
               Experience
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className={styles.Link} href="/#projects">
               Projects
             </a>
-          </li>
+          </li> */}
           <li>
             <a className={styles.Link} href="/#contact">
               Contact

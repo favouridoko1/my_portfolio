@@ -3,6 +3,7 @@ export const Projects = () => {
   return (
     <section className={styles.container}>
       <h2>PROJECTS</h2>
+      <div></div>
     </section>
   )
 }

@@ -13,6 +13,10 @@
         "imageSrc": "experience/javascript_icon.png"
     },
     {
+        "title": "TYPESCRIPT",
+        "imageSrc": "experience/TypeScript.png"
+    },
+    {
         "title": "REACT",
         "imageSrc": "experience/react_icon.png"
     }
